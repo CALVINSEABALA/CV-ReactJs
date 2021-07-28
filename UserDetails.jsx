@@ -16,7 +16,7 @@ export default class UserDetails extends Component {
             },
             {
                 id:2,
-                age : 27,
+                age : 25,
                 name : 'Tyson',
                 surname: 'Mothlabeng',
                 location: 'Matlala',
@@ -27,7 +27,14 @@ export default class UserDetails extends Component {
                 name : 'Andries',
                 surname: 'Sebola',
                 location: 'Tzaneen',
-            }
+            } ,
+            {
+                id:4,
+                age : 18,
+                name : 'Richard',
+                surname: 'Bra Richie',
+                location: 'Bendor',
+            },
         ]
 
     };
@@ -63,11 +70,13 @@ export default class UserDetails extends Component {
 
         if (age > 18){
              message =  'you are old enough'
+            return message;
         }
         else{
             message = 'You are not old enough'
+            return message;
         }
-        return message;
+
     }
 
 
