@@ -80,3 +80,51 @@ li {
 a{
     text-underline: none;
 }
+.link:hover {
+    text-decoration: none;
+    color: grey;
+    text-underline: none;
+}
+.content-item {
+    border: 2px solid #666666;
+    margin: 5px;
+    padding: 2%;
+    line-height: 99%;
+    border-radius: 12px;
+    transition: width 2s, height 2s,transform 2s;
+}
+.content-item:hover {
+
+    border: 2px solid #5C07E7;
+
+}
+.content-item h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #003366;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Montserrat-Bold;
+}
+.footer {
+
+    border: 2px solid #5C07E7;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.footer p:hover{
+
+    color: #5C07E7;
+}
+
+.footer h4 {
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #003366;
+    text-align: center;
+    text-decoration: underline;
+}
+
+

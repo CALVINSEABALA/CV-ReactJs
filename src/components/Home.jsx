@@ -95,6 +95,16 @@ const Home = () =>{
                     </div>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <div className={'footer'}>
+                        <p>
+                            For More Details about Calvin, and his current latest projects,
+                            please scroll through the other pages
+                        </p>
+                    </div>
+                </Col>
+            </Row>
 
         </Container>
     )

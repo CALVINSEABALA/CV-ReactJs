@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import  Nav from 'react-bootstrap/Nav';
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -16,11 +18,15 @@ const NavBar = () => {
                     height="30"
                     className="d-inline-block align-top"
                     alt="NavBar logo"
-                /></Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="./Profile">Profile</Nav.Link>
-                    <Nav.Link href="./About">About</Nav.Link>
-                    <Nav.Link href="./UserDetails">Users</Nav.Link>
+                />Home</Navbar.Brand>
+                <Nav className="link">
+                    <Link to="./Profile">Profile</Link>
+                </Nav>
+                <Nav className="link">
+                    <Link to="./About">About</Link>
+                </Nav>
+                <Nav className="link">
+                    <Link to="./UserDetails">Users</Link>
                 </Nav>
             </Container>
         </Navbar>
