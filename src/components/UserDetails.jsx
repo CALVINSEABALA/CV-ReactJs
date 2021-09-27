@@ -69,7 +69,7 @@ const UserDetails = () => {
     return (
         <div className={'container'}>
 
-            <h2 className={'h2'}> List Of Users in Asc Order</h2>
+            <h2 className={'h2'} style={{color:"#ff0000"}}> List Of Users in Asc Order</h2>
             <div className={'row'}>
                 {Details}
             </div>

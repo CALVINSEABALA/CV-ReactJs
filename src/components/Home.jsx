@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import  Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { useHistory } from 'react-router-dom';
+import NavBar from "./NavBar";
 
 
 
@@ -22,7 +23,8 @@ const Home = () =>{
 
     return (
         <Container>
-            <Row >
+
+            <Row className={'mainCont'} >
 
                 <div className={'header'}>
                 <Col xs={2} sm={4}>

@@ -11,7 +11,12 @@ const NavBar = () => {
     return (
 
         <Navbar bg="light" variant="light">
-            <Container>
+            <Container style={{borderRadius: "12px",
+                transition: "width 2s, height 2s,transform 2s",
+                backdropFilter:"blur(15px)",
+                boxShadow:"0 4px 30px rgba(0, 0, 0, 0.5)"
+
+            }}>
                 <Navbar.Brand href="/"> <img
                     src={'/favicon.ico'}
                     width="30"
@@ -19,9 +24,7 @@ const NavBar = () => {
                     className="d-inline-block align-top"
                     alt="NavBar logo"
                 />Home</Navbar.Brand>
-                <Nav className="link">
-                    <Link to="./Profile">Profile</Link>
-                </Nav>
+
                 <Nav className="link">
                     <Link to="./About">About</Link>
                 </Nav>
